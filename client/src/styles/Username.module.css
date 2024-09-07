@@ -1,0 +1,32 @@
+.glass{
+  background: rgba( 201, 183, 183, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+  @apply  border-gray-50  h-auto w-[30%] rounded-3xl min-w-max py-20 px-7;
+}
+
+.glass_register{
+  background: rgba( 201, 183, 183, 0.2 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 10px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+  @apply  border-gray-50  h-[90%] w-[50%] rounded-3xl min-w-max py-20 px-7;
+}
+.profile{
+  @apply   w-[135px] rounded-full cursor-pointer;
+
+}
+.textBox{
+  @apply bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mb-3;
+}
+
+.btn{
+  @apply  text-white bg-gradient-to-br from-purple-600 to-blue-500  hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 mt-5
+}
+
+input[type="file"]{
+  display: none;
+}
